@@ -16,7 +16,7 @@ public class AppTest extends TestCase {
 
     public void testAddition() {
         App app = new App();
-        assertEquals(3, app.calculate("add(1,2)", null));
+        assertEquals(3, app.calculate("add(1,3)", null));
     }
 
     public void testSubtraction() {
